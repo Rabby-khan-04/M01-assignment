@@ -188,6 +188,49 @@ img {
 
 /* CAT CSS Start */
 
+.cta {
+    padding: 130px 0;
+}
 
+.cta .container {
+    padding: 60px 64px;
+    border-radius: 8px;
+    background: url(../assets/images/watch.png), linear-gradient(to right, #005FAC, #005fac00);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.cta_content_wrapper {
+    max-width: 560px;
+}
+
+.cta_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.cta_btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 20px 25px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+
+.cta_btn:hover{
+    color: #fff;
+    background-color: transparent;
+}
 
 /* CAT CSS End */
