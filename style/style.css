@@ -133,3 +133,61 @@ img {
 }
 
 /* About Section Css End */
+
+
+
+/* Plan Section Css Start */
+
+.plan {}
+
+.plan_section_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+
+.plans_wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan_box {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.plan_box img {
+    height: 92px;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.plan_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan_details {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* Plan Section Css End */
+
+
+
+/* CAT CSS Start */
+
+
+
+/* CAT CSS End */
