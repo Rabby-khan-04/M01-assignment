@@ -5,6 +5,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -15,7 +19,8 @@
 }
 
 
-/* Banner Css */
+/* Banner Section Css Start */
+
 .banner {
     padding: 230px 230px 165px 0;
     background: url("../assets/images/banner3.png");
@@ -62,7 +67,69 @@
     transition: 0.4s;
 }
 
-.banner_btn:hover{
+.banner_btn:hover {
     color: #fff;
     background-color: transparent;
 }
+
+/* Banner Section Css End */
+
+
+
+/* About Section Css Start */
+
+.about {}
+
+.about_content_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.about_image_col {
+    flex-basis: 50%;
+}
+
+.about_text_col {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.about_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failur_list {
+    list-style: none;
+}
+
+.failur_list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failur_list li i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #16D887;
+}
+
+/* About Section Css End */
