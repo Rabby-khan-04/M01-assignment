@@ -9,3 +9,60 @@
     max-width: 1140px;
     margin: auto;
 }
+
+.pt_130 {
+    padding-top: 130px;
+}
+
+
+/* Banner Css */
+.banner {
+    padding: 230px 230px 165px 0;
+    background: url("../assets/images/banner3.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.banner_content_wrapper {
+    text-align: right;
+    max-width: 520px;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.banner_btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 20px 25px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+
+.banner_btn:hover{
+    color: #fff;
+    background-color: transparent;
+}
