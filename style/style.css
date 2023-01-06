@@ -228,9 +228,110 @@ img {
     transition: 0.4s;
 }
 
-.cta_btn:hover{
+.cta_btn:hover {
     color: #fff;
     background-color: transparent;
 }
 
 /* CAT CSS End */
+
+
+/* Footer Css Start */
+
+footer {
+    padding: 130px 0;
+    background-color: #151414;
+}
+
+.footer_content_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_content {
+    max-width: 485px;
+}
+
+.footer_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer_details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.mb_24 {
+    margin-bottom: 24px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.social_media li {}
+
+.social_media li img {}
+
+.newsletter {
+    max-width: 325px;
+}
+
+.newsletter_title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+#nl_email {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    border: none;
+    background-color: transparent;
+    outline: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+#nl_email:focus{
+    outline-color: #005FAC;
+}
+
+.nl_submit_btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    padding: 20px 25px;
+    background-color: #005FAC;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #005FAC;
+    transition: 0.4s;
+}
+
+.nl_submit_btn:hover{
+    color: #005FAC;
+    background-color: transparent;
+}
+
+/* Footer Css End */
